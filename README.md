@@ -3,7 +3,7 @@
 ## Informasi
 - Mata Kuliah: Advanced Software Testing and Quality Assurance (ASTQA)
 - Objek Uji: Aplikasi Web hasil MID Scalable System Design
-- Kelompok: [Isi Nama Kelompok]
+- Kelompok: Kelompok 5
 
 ## Struktur Repositori Final
 - 01_Documents
@@ -29,3 +29,7 @@
 
 ## Catatan
 - File .md ini dapat diekspor ke PDF sesuai permintaan dosen (SRS, SDD, dan Master Test Plan).
+
+## Link Video
+- Youtube : https://drive.google.com/file/d/15tQ-Y_9zBValjaQNkWPg47uSOC-DJihb/view?usp=sharing
+- Reells Instagram :
