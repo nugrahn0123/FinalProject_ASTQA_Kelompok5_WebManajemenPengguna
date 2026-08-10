@@ -1,0 +1,50 @@
+{
+  "info": {
+    "name": "ASTQA School Web Smoke Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/up",
+          "host": ["{{baseUrl}}"],
+          "path": ["up"]
+        }
+      }
+    },
+    {
+      "name": "Login Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/login",
+          "host": ["{{baseUrl}}"],
+          "path": ["login"]
+        }
+      }
+    },
+    {
+      "name": "Dashboard Guest Redirect",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/dashboard",
+          "host": ["{{baseUrl}}"],
+          "path": ["dashboard"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://127.0.0.1:8000"
+    }
+  ]
+}
